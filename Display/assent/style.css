@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bloque {
+    /*width: 400px;*/
+    display: block;
+    background-color: #3498db;
+}
+
+.en-linea {
+    width: 800px;
+    display: inline;
+    background-color: #2ecc71;
+}
+
+.en-linea-bloque {
+    width: 800px;
+    display: inline-block;
+    background-color: #f1c40f;
+}
+
+.ninguno {
+    display: none;
+    background-color: #e74c3c;
+}
+
+.flex {
+    display: flex;
+    background-color: #9b59b6;
+}
+
+.rejilla {
+    background-color: #e67e22;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.tabla {
+    width: 400px;
+    display: table;
+    background-color: #1abc9c;
+}
+
+
+.fila-tabla {
+    display: table;
+    background-color: #95a5a6;
+}
+
+.uno {
+    border: black 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.dos {
+    border: black 1px solid;
+    width: 500px;
+    height: 100px;
+}
+
+.inline-element {
+    display: inline;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.inline-block-element {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grid-element {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-element {
+    display: table-cell;
+    background-color: #3498db;
+    border: black 1px solid;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
